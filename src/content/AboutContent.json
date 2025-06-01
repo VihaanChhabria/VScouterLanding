@@ -1,16 +1,26 @@
 {
-  "title": "Light, fast & responsive",
-  "text": "This template is ready to use, so you don't need to change anything at a component level, unless you want to customize the default styling.",
+  "title": "Why VScouter?",
+  "text": "VScouter is designed for FRC teams who want reliable, fast, and insightful scouting tools. Whether you're in the pits or the stands, VScouter helps your team make data-driven decisions without hassle.",
   "section": [
     {
-      "title": "Why Antd?",
-      "content": "Ant Design is a React UI library that has a lot of easy-to-use components for building elegant UI.",
-      "icon": "notes.svg"
+      "title": "Offline Scouting",
+      "content": "VScouter runs entirely offline with auto-saving to USB drives—perfect for competitions with unreliable Wi-Fi.",
+      "icon": "usb.svg"
     },
     {
-      "title": "Why styled-components?",
-      "content": "Styled Components gives you total control over your components.",
-      "icon": "notes.svg"
+      "title": "Fast & Intuitive Forms",
+      "content": "Enter match data in seconds with clean, intuitive pages designed for speed under pressure.",
+      "icon": "lightbulb.svg"
+    },
+    {
+      "title": "Runs on Any Device",
+      "content": "VScouter works on any device with a web browser, including phones, tablets, and laptops.",
+      "icon": "devices.svg"
+    },
+    {
+      "title": "Prebuilt and Customizable Analytics",
+      "content": "VScouter comes with prebuilt analytics and allows you to create custom reports to fit your team's needs.",
+      "icon": "analytics.svg"
     }
   ]
 }

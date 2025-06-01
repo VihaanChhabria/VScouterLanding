@@ -1,12 +1,12 @@
 {
-  "title": "Landing page template for developers & startups",
-  "text": "Beautifully designed templates using React.js, ant design and styled-components! Save weeks of time and build your landing page in minutes.",
+  "title": "Why guess? VScouter knows.",
+  "text": "VScouter helps you collect, view, and analyze match scouting data effortlessly. Designed for teams who want better data — fast.",
   "button": [
     {
-      "title": "Explore"
+      "title": "Get Started"
     },
     {
-      "title": "Learn more",
+      "title": "Live Demo",
       "color": "#fff"
     }
   ]

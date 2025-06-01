@@ -1,5 +1,5 @@
 import { createGlobalStyle } from "styled-components";
-
+// #2e186a
 export const Styles = createGlobalStyle`
 
     @font-face {
@@ -47,7 +47,7 @@ export const Styles = createGlobalStyle`
 
         :focus-within {
             background: none;
-            box-shadow: #2e186a 0px 0px 0px 1px;
+            box-shadow: #004aad 0px 0px 0px 1px;
         }
     }
 
@@ -58,7 +58,7 @@ export const Styles = createGlobalStyle`
     h5,
     h6 {
         font-family: 'Motiva Sans Bold', serif;
-        color: #18216d;
+        color: #004aad;
         font-size: 56px;
         line-height: 1.18;
 
@@ -72,7 +72,7 @@ export const Styles = createGlobalStyle`
     }
 
     p {
-        color: #18216d;
+        color: #004aad;
         font-size: 21px;        
         line-height: 1.41;
     }
@@ -84,7 +84,7 @@ export const Styles = createGlobalStyle`
     a {
         text-decoration: none;
         outline: none;
-        color: #2E186A;
+        color: #004aad;
 
         :hover {
             color: #2e186a;
@@ -108,5 +108,10 @@ export const Styles = createGlobalStyle`
 
     .ant-drawer-content-wrapper {
         width: 300px !important;
+    }
+    
+    body {
+        //transform: scale(0.8);
+        transform-origin: top;
     }
 `;
