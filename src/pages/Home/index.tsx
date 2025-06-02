@@ -23,6 +23,7 @@ const Home = () => {
         button={IntroContent.button}
         icon="ExamplePage.png"
         id="intro"
+        socialLinks={["https://github.com/VihaanChhabria/VScouter", "https://www.chiefdelphi.com/t/vscouter-scouting-app-2025"]}
       />
       <MiddleBlock
         title={MiddleBlockContent.title}
@@ -51,7 +52,7 @@ const Home = () => {
           "Explore the clean and efficient UI that scouters use to collect real-time match data. This walkthrough showcases the actual pages used during competition — optimized for speed, clarity, and ease of use on any device."
         }
         icon="MatchScoutingInterfacePreview.gif"
-        id="mission"
+        id="demo"
         largeImage={true}
         button={[
           {
@@ -80,11 +81,7 @@ const Home = () => {
         content={"Hi, I'm Vihaan Chhabria, a high school student and FRC developer. I built VScouter to give teams a fast, offline-ready scouting tool that works on any device. It's open-source and built from real competition experience; designed to make scouting simple and reliable for everyone."}
         icon="VihaanProfilePic.png"
         id="product"
-      />
-      <Contact
-        title={ContactContent.title}
-        content={ContactContent.text}
-        id="contact"
+        socialLinks={["https://github.com/VihaanChhabria", "https://www.chiefdelphi.com/u/vihaanc/summary", "mailto:chhabria.vihaan2@gmail.com"]}
       />
     </Container>
   );

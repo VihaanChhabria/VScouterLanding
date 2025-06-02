@@ -111,7 +111,7 @@ export const Styles = createGlobalStyle`
     }
     
     body {
-        //transform: scale(0.8);
+        transform: scale(0.9);
         transform-origin: top;
     }
 `;

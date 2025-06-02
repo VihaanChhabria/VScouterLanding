@@ -15,6 +15,8 @@ import {
   StyledRow,
   ButtonWrapper,
 } from "./styles";
+import { SocialIcon } from 'react-social-icons'
+import ChiefDelphiIcon from '../../common/ChiefDelphiIcon.png';
 
 const ContentBlock = ({
   icon,
@@ -26,6 +28,7 @@ const ContentBlock = ({
   id,
   direction,
   largeImage,
+  socialLinks,
 }: ContentBlockProps) => {
   const scrollTo = (id: string) => {
     const element = document.getElementById(id) as HTMLDivElement;
@@ -60,7 +63,38 @@ const ContentBlock = ({
             <ContentWrapper>
               <h6>{t(title)}</h6>
               <Content>{t(content)}</Content>
+              <div style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                gap: "12px",
+                flexDirection: "row",
+                marginBottom: "1.5rem",
+              }}>
 
+                {socialLinks && socialLinks.map((link, index) => {
+                  if (link.startsWith("https://www.chiefdelphi.com")) {
+                    return (
+                      <img src={ChiefDelphiIcon}
+                        style={{ width: 55, height: 55, cursor: 'pointer' }}
+                        key={index} onClick={() => {
+                          const newWindow = window.open(link, '_blank');
+                          if (newWindow) {
+                            newWindow.focus();
+                          }
+                        }} />
+                    )
+                  }
+                  return (
+                    <SocialIcon
+                      key={index}
+                      url={link}
+                      target="_blank"
+                    />
+                  );
+                })}
+              </div>
+              
               <ButtonWrapper>
                 {typeof button === "object" &&
                   button.map(
