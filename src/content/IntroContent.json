@@ -3,11 +3,14 @@
   "text": "VScouter helps you collect, view, and analyze match scouting data effortlessly. Designed for teams who want better data — fast.",
   "button": [
     {
-      "title": "Get Started"
+      "title": "Get Started",
+      "link": "https://vscouter-docs.netlify.app"
     },
     {
       "title": "Live Demo",
-      "color": "#fff"
+      "color": "#fff",
+      "link": "https://vscouter.com/demo",
+      "scroll": "demo"
     }
   ]
 }

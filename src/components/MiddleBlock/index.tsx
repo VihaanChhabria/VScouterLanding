@@ -7,7 +7,11 @@ import { MiddleBlockSection, Content, ContentWrapper } from "./styles";
 interface MiddleBlockProps {
   title: string;
   content: string;
-  button: string;
+  button: {
+    title: string;
+    link?: string;
+    scroll?: string;
+  };
   t: TFunction;
 }
 
@@ -27,8 +31,14 @@ const MiddleBlock = ({ title, content, button, t }: MiddleBlockProps) => {
               <h6>{t(title)}</h6>
               <Content>{t(content)}</Content>
               {button && (
-                <Button name="submit" onClick={() => scrollTo("mission")}>
-                  {t(button)}
+                <Button name="submit" onClick={() => {
+                  if (button.scroll) {
+                    scrollTo(button.scroll);
+                    return;
+                  }
+                  window.open(button.link || "", '_blank')
+                }}>
+                  {t(button.title)}
                 </Button>
               )}
             </Col>

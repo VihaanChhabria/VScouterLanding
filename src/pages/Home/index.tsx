@@ -43,7 +43,10 @@ const Home = () => {
         content={
           "New to VScouter? Check out our video playlist for a step-by-step guide on how to set up, and start scouting with ease. From installation to syncing and analytics, we've got you covered."
         }
-        button={"Watch the Playlist"}
+        button={{
+          "title": "Watch the Playlist",
+          "link": "https://www.youtube.com/playlist?list=PLOuGqt-X0WEXzWRC7ZI-hJ2-jKouIhjN0"
+        }}
       />
       <ContentBlock
         direction="right"
@@ -57,6 +60,7 @@ const Home = () => {
         button={[
           {
             title: "Scouting UI Docs",
+            link: "https://vscouter-docs.netlify.app/",
           },
         ]}
       />
@@ -67,11 +71,12 @@ const Home = () => {
           "Get a look at VScouter's analytics powered by Power BI. This preview showcases the prebuilt dashboard included with the app — featuring team insights and performance visualizations. The file is fully editable, so you can customize it to fit your team's strategy needs with ease."
         }
         icon="AnalyticsPreview.gif"
-        id="mission"
+        id="demo1"
         largeImage={true}
         button={[
           {
             title: "Analytics Docs",
+            link: "https://vscouter-docs.netlify.app/",
           },
         ]}
       />
