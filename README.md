@@ -2,7 +2,7 @@
 
 <img src="https://vscouter-landing.netlify.app/img/svg/VScouterLogoLong.svg" alt="drawing" width="40%"/>
 
-This is the official landing page for [VScouter](https://github.com/VihaanChhabria/VScouter), an FRC scouting app designed to streamline data collection, analysis, and team collaboration during competitions.
+This is the landing page for [VScouter](https://github.com/VihaanChhabria/VScouter), an FRC scouting app designed to streamline data collection, analysis, and team collaboration during competitions.
 
 ## Live Site
 Visit the site: **[vscouter-landing.netlify.app](https://vscouter-landing.netlify.app/)**
