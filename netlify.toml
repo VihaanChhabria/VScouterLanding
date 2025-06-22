@@ -1,6 +1,6 @@
 [[redirects]]
   from = "/ui/*"
-  to = "https://vscouter-ui.netlify.app/ui/:splat"
+  to = "https://vscouter-ui.netlify.app/:splat"
   status = 200
   force = true
 
