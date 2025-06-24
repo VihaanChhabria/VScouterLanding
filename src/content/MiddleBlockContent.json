@@ -3,6 +3,6 @@
   "text": "VScouter is a modern, lightweight, and offline-ready FRC scouting app designed to streamline data collection, syncing, and analysis for teams of all sizes. Built by students and tested at competition, it helps your team make smarter match decisions with less hassle.",
   "button": {
     "title": "Get Started",
-    "link": "https://vscouter-docs.netlfy.app"
+    "link": "https://vscouter.netlify.app/docs/"
   }
 }

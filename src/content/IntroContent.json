@@ -4,13 +4,12 @@
   "button": [
     {
       "title": "Get Started",
-      "link": "https://vscouter-docs.netlify.app"
+      "link": "https://vscouter.netlify.app/docs/"
     },
     {
-      "title": "Live Demo",
+      "title": "Check out the UI",
       "color": "#fff",
-      "link": "https://vscouter.com/demo",
-      "scroll": "demo"
+      "link": "https://vscouter.netlify.app/ui/"
     }
   ]
 }

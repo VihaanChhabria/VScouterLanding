@@ -60,7 +60,7 @@ const Home = () => {
         button={[
           {
             title: "Scouting UI Docs",
-            link: "https://vscouter-docs.netlify.app/",
+            link: "https://vscouter.netlify.app/docs/",
           },
         ]}
       />
@@ -76,7 +76,7 @@ const Home = () => {
         button={[
           {
             title: "Analytics Docs",
-            link: "https://vscouter-docs.netlify.app/",
+            link: "https://vscouter.netlify.app/docs/",
           },
         ]}
       />

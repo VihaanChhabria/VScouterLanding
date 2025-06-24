@@ -44,7 +44,7 @@ const Header = ({ t }: { t: TFunction }) => {
         <CustomNavLinkSmall
           style={{ width: "180px" }}
           onClick={() => {
-            const newWindow = window.open("https://vscouter-docs.netlify.app/", '_blank');
+            const newWindow = window.open("https://vscouter.netlify.app/docs/", '_blank');
             if (newWindow) {
               newWindow.focus();
             }
