@@ -1,6 +1,6 @@
 [[redirects]]
   from = "/ui/*"
-  to = "https://vscouter-ui.netlify.app/:splat"
+  to = "https://2025-website-proxy-transfer--vscouter-ui.netlify.app/ui/:splat"
   status = 200
   force = true
 
